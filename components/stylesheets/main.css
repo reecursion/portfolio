@@ -2,6 +2,10 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    height: 100vh;
+}
+
 .navbar {
     padding: 0;
     margin: 0;
