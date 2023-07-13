@@ -53,3 +53,18 @@ function toggleDarkMode() {
         }, 300);
     }
 }
+
+var footer = document.getElementById('footer');
+var prevScrollPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+
+window.addEventListener('scroll', function() {
+    var currentScrollPos = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+
+    if (currentScrollPos > prevScrollPos) {
+        footer.style.display = 'none';
+    } else {
+        footer.style.display = 'flex';
+    }
+
+    prevScrollPos = currentScrollPos;
+});

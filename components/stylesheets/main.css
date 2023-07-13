@@ -1,9 +1,12 @@
 html {
     font-family: 'Poppins', sans-serif;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
     height: 100vh;
+    margin-bottom: 8vh;
 }
 
 .navbar {
@@ -153,8 +156,10 @@ a {
     width: 100vw;
     min-height: 8vh;
     background-color: #e4e4e4;
-    display: flex;
+    display: none;
     align-items: center;
+    position: fixed;
+    bottom: 0;
 }
 
 .footer-content {
