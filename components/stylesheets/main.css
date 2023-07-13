@@ -6,7 +6,9 @@ html {
 
 body {
     height: 100vh;
+    height: auto;
     margin-bottom: 8vh;
+    max-height: fit-content;
 }
 
 .navbar {
@@ -156,10 +158,8 @@ a {
     width: 100vw;
     min-height: 8vh;
     background-color: #e4e4e4;
-    display: none;
+    display: flex;
     align-items: center;
-    position: fixed;
-    bottom: 0;
 }
 
 .footer-content {

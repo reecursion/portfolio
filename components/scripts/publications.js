@@ -46,7 +46,6 @@ publications.forEach((yearObj) => {
 
     const headingBr = document.createElement('br');
     publicationContainer.appendChild(headingBr);
-    publicationContainer.appendChild(headingBr);
 
     data.forEach((publication, index) => {
         const publicationDiv = document.createElement('div');
@@ -67,9 +66,29 @@ publications.forEach((yearObj) => {
         detailsDiv.innerHTML = `<i>${publication.details}</i>`;
         publicationDiv.appendChild(detailsDiv);
 
+        const buttonsDiv = document.createElement('div');
+        buttonsDiv.classList.add('pub-buttons');
+
+        const abstractButton = document.createElement('button');
+        abstractButton.classList.add('button-pub');
+        abstractButton.setAttribute('role', 'button');
+        abstractButton.innerHTML = 'Abstract';
+        abstractButton.addEventListener('click', () => {
+            toggleAbstract(index + year);
+        });
+        buttonsDiv.appendChild(abstractButton);
+
+        const pdfButton = document.createElement('button');
+        pdfButton.classList.add('button-pub');
+        pdfButton.setAttribute('role', 'button');
+        pdfButton.innerHTML = 'PDF';
+        buttonsDiv.appendChild(pdfButton);
+
+        publicationDiv.appendChild(buttonsDiv);
+
         const abstractDiv = document.createElement('div');
         abstractDiv.classList.add('pub-abstract');
-        abstractDiv.id = `abstract${index}${year}`;
+        abstractDiv.id = `abstract${index+year}`;
         abstractDiv.innerHTML = publication.abstract;
         publicationDiv.appendChild(abstractDiv);
 
