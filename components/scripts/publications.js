@@ -1,10 +1,20 @@
 const publications = [{
         year: 2023,
         data: [{
-            title: "Segmentation and Reconstruction",
+            title: "Segmentation and 3D reconstruction of the brain’s Grey matter, White matter and Cerebrospinal Fluid Regions (In progress)",
             authors: "<u>Gayathri G L</u>, Fathima Naushin A R, Sowmya Ganesan",
-            details: "Deep Learning",
-            abstract: "Yet to be filled"
+            details: "",
+            abstract: "Yet to be updated"
+        }, {
+            title: "GDP and Sector-wise Yield prediction using Time-Series Analysis (In Progress)",
+            authors: "<u>Gayathri G L</u>, Haricharan Bharathi",
+            details: "",
+            abstract: "Yet to be updated"
+        }, {
+            title: "Abusive Comment Detection in Tamil Code-Mixed Data by Adjusting Class Weights and Refining Features (Under Review)",
+            authors: "<u>Gayathri G L</u>, Krithika Swaminathan, Divyasri K, Thenmozhi Durairaj, Bharathi B",
+            details: "",
+            abstract: "Yet to be updated"
         }]
     },
     {

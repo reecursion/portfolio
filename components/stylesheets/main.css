@@ -5,9 +5,12 @@ html {
 }
 
 body {
-    height: 100vh;
-    height: auto;
     margin-bottom: 8vh;
+}
+
+.main {
+    height: 100vh;
+    min-height: 100vh;
     max-height: fit-content;
 }
 
