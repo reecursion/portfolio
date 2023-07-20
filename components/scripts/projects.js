@@ -2,7 +2,7 @@ const projects = [{
         title: "paintApp",
         description: "A Simple Java Paint Application coded on NetBeans IDE, making use of Scene Builder to create the GUI.",
         tags: ["Java", "NetBeans"],
-        picture: "profile_pic.jpeg",
+        picture: "paintapp.png",
         link: "https://github.com/reecursion/paintApp"
     },
     {
@@ -15,7 +15,7 @@ const projects = [{
         title: "MegaBytes",
         description: "Working Frontend prototype for the E-Commerce platform designed for D2C Design Heist",
         tags: ["HTML", "CSS"],
-        picture: "profile_pic.jpeg",
+        picture: "megabytes.png",
         link: "https://github.com/reecursion/MegaBytes"
     },
     {
