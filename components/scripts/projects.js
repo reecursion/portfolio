@@ -69,7 +69,10 @@ function renderProjects() {
             learnMoreBtn.classList.add("button-view");
             learnMoreBtn.textContent = "Github";
             learnMoreBtn.href = project.link;
-            projectDetails.appendChild(learnMoreBtn);
+            const projectButtons = document.createElement("div");
+            projectButtons.classList.add("project-buttons");
+            projectButtons.appendChild(learnMoreBtn);
+            projectDetails.appendChild(projectButtons);
         }
 
         projectContainer.appendChild(projectCard);
