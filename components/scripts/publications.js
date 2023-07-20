@@ -90,7 +90,7 @@ publications.forEach((yearObj) => {
             buttonsDiv.classList.add('pub-buttons');
 
             const abstractButton = document.createElement('button');
-            abstractButton.classList.add('button-pub');
+            abstractButton.classList.add('button-view');
             abstractButton.setAttribute('role', 'button');
             abstractButton.innerHTML = 'Abstract';
             abstractButton.addEventListener('click', () => {
@@ -99,7 +99,7 @@ publications.forEach((yearObj) => {
             buttonsDiv.appendChild(abstractButton);
 
             const pdfButton = document.createElement('button');
-            pdfButton.classList.add('button-pub');
+            pdfButton.classList.add('button-view');
             pdfButton.setAttribute('role', 'button');
             pdfButton.innerHTML = 'PDF';
             buttonsDiv.appendChild(pdfButton);
