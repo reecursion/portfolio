@@ -1,15 +1,29 @@
 const projects = [{
-        title: "Project 1",
-        description: "Description 1",
-        tags: ["skill1", "skill2"],
+        title: "paintApp",
+        description: "A Simple Java Paint Application coded on NetBeans IDE, making use of Scene Builder to create the GUI.",
+        tags: ["Java", "NetBeans"],
         picture: "profile_pic.jpeg",
-        link: "link.com"
+        link: "https://github.com/reecursion/paintApp"
     },
     {
-        title: "Project 1",
-        description: "Description 1",
-        tags: ["skill1", "skill2"],
+        title: "HAART: E-Commerce for underrepresented artisans",
+        description: "End Semester Project done as a part of the Course work for Mini Project Lab and Internet Programming Lab",
+        tags: ["ReactJS", "NodeJS", "HTML", "CSS"],
         picture: "profile_pic.jpeg",
+    },
+    {
+        title: "MegaBytes",
+        description: "Working Frontend prototype for the E-Commerce platform designed for D2C Design Heist",
+        tags: ["HTML", "CSS"],
+        picture: "profile_pic.jpeg",
+        link: "https://github.com/reecursion/MegaBytes"
+    },
+    {
+        title: "Hospital Database Management",
+        description: "A Hospital database to store and manipulate patient's records and their blood test details.",
+        tags: ["C++"],
+        picture: "profile_pic.jpeg",
+        link: "https://github.com/reecursion/Hospital-Database-Management"
     }
 ];
 
