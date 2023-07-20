@@ -73,6 +73,10 @@ function renderProjects() {
             projectButtons.classList.add("project-buttons");
             projectButtons.appendChild(learnMoreBtn);
             projectDetails.appendChild(projectButtons);
+            learnMoreBtn.onclick = (event) => {
+                event.preventDefault();
+                window.open(project.link, "_blank");
+            };
         }
 
         projectContainer.appendChild(projectCard);
