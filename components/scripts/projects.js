@@ -9,7 +9,7 @@ const projects = [{
         title: "HAART: E-Commerce for underrepresented artisans",
         description: "End Semester Project done as a part of the Course work for Mini Project Lab and Internet Programming Lab",
         tags: ["ReactJS", "NodeJS", "HTML", "CSS"],
-        picture: "profile_pic.jpeg",
+        picture: "haart.jpeg",
     },
     {
         title: "MegaBytes",
