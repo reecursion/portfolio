@@ -346,6 +346,7 @@ a {
 .dark-mode .mobile .collapsible {
     background-color: #212121;
     color: #ececec;
+    padding: 10px;
 }
 
 .dark-mode .mobile a {
