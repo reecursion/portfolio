@@ -294,10 +294,6 @@ a {
     transform: translateY(0);
 }
 
-.mobile .dark-mode .navbar-toggler {
-    color: #373737;
-}
-
 .mobile .menu {
     position: relative;
     width: 100%;
@@ -336,6 +332,29 @@ a {
 
 .mobile .menu-icon {
     font-size: large;
+}
+
+.mobile .mode-select {
+    margin-left: auto;
+    /* This will push the moon icon to the right */
+}
+
+.dark-mode .mobile-navbar {
+    background-color: #212121;
+}
+
+.dark-mode .mobile .collapsible {
+    background-color: #212121;
+    color: #ececec;
+}
+
+.dark-mode .mobile a {
+    color: #ececec;
+}
+
+.dark-mode .mobile .content {
+    background-color: #1c1c1c;
+    color: #dadada;
 }
 
 @media screen and (max-width: 768px) {
