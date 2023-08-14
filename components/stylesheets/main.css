@@ -4,6 +4,10 @@ html {
     min-height: 100%;
 }
 
+.mobile {
+    display: none;
+}
+
 body {
     margin-bottom: 8vh;
 }
@@ -290,9 +294,41 @@ a {
     transform: translateY(0);
 }
 
+.dark-mode .navbar-toggler {
+    color: #373737;
+}
+
 @media screen and (max-width: 768px) {
     .button-view {
         width: auto;
         max-width: none;
+    }
+    .nav-item {
+        display: none;
+    }
+    .mobile {
+        display: inline;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .info {
+        flex: 1 1 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .info-content {
+        padding: 25%;
+        padding-top: 10%;
+        padding-bottom: 10%
+    }
+    .not-mobile {
+        display: none;
+    }
+    .home-content {
+        padding: 8%;
+        font-size: medium;
     }
 }

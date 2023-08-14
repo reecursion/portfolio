@@ -5,6 +5,7 @@ function toggleDarkMode() {
     const homeContent = document.querySelector('.home-content');
     const footer = document.querySelector('.footer');
 
+
     // Toggle dark mode classes
     body.classList.toggle('dark-mode');
     navbar.classList.toggle('dark-mode');
@@ -15,6 +16,10 @@ function toggleDarkMode() {
     // Toggle dark mode icon source
     const darkModeToggle = document.querySelector('.mode-select');
     const isDarkMode = body.classList.contains('dark-mode');
+
+    // Toggle dark mode icon source for both toggles
+    const mainDarkModeToggle = document.querySelector('#modeSelectMain');
+    const navDarkModeToggle = document.querySelector('#modeSelectNav');
 
     // Update local storage
     localStorage.setItem('darkMode', isDarkMode);
@@ -51,6 +56,7 @@ function toggleDarkMode() {
         }, 300);
     }
 }
+
 
 // Check local storage for dark mode preference
 const storedDarkMode = localStorage.getItem('darkMode');
