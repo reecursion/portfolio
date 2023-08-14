@@ -39,3 +39,24 @@
     margin-top: 10px;
     font-size: 12px;
 }
+
+@media screen and (max-width: 768px) {
+    * {
+        font-size: medium;
+    }
+    .pub-authors {
+        font-size: smaller;
+    }
+    .pub-authors u {
+        font-size: small;
+    }
+    .pub-details i {
+        font-size: x-small;
+    }
+    .pub-abstract {
+        font-size: smaller;
+    }
+    .pub-title b {
+        font-size: medium;
+    }
+}

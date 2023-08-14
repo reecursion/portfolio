@@ -63,3 +63,12 @@ const storedDarkMode = localStorage.getItem('darkMode');
 if (storedDarkMode === 'true') {
     toggleDarkMode();
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+    const collapsibleBtn = document.querySelector(".collapsible");
+    const content = document.querySelector(".content");
+
+    collapsibleBtn.addEventListener("click", function() {
+        content.style.display = content.style.display === "block" ? "none" : "block";
+    });
+});

@@ -14,21 +14,21 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary not-mobile">
         <div class="container-fluid container-nav">
-            <a class="navbar-brand nav-link" href="/">Reecursion's Homepage</a>
+            <a class="navbar-brand nav-link" href="#">Reecursion's Homepage</a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="publications.html">Publications</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="projects.html">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <div class="mode-select" onclick="toggleDarkMode()">
+                        <div class="mode-select nav-mode" onclick="toggleDarkMode()">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#828282" class="icon-moon" viewBox="0 0 16 16">
-                <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+                                <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
                             </svg>
                         </div>
                     </li>
@@ -36,11 +36,22 @@
             </div>
         </div>
     </nav>
+    <div class="mobile">
+        <div class="menu">
+            <button class="collapsible">
+                <span class="menu-icon">&#9776;</span> <a href = "index.html" class="title">Reecursion's Homepage</a>
+            </button>
+            <div class="content">
+                <a href="publications.html">Publications</a>
+                <a href="projects.html">Papers</a>
+            </div>
+        </div>
+    </div>
 
 
     <hr>
     <div class="main">
-        <div class="info not-mobile">
+        <div class="info mobile">
             <div class="info-content">
                 <div class="picture">
                     <img src="components/assets/profile_pic.jpeg" alt="Gayathri's photo">
