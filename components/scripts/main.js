@@ -1,6 +1,7 @@
 function toggleDarkMode() {
     const body = document.body;
     const navbar = document.querySelector('.navbar');
+    const navbarmenu = document.querySelector('.mobile-navbar');
     const infoContent = document.querySelector('.info-content');
     const homeContent = document.querySelector('.home-content');
     const footer = document.querySelector('.footer');
@@ -9,6 +10,7 @@ function toggleDarkMode() {
     // Toggle dark mode classes
     body.classList.toggle('dark-mode');
     navbar.classList.toggle('dark-mode');
+    navbarmenu.classList.toggle('dark-mode');
     infoContent.classList.toggle('dark-mode');
     homeContent.classList.toggle('dark-mode');
     footer.classList.toggle('dark-mode');
@@ -58,6 +60,7 @@ function toggleDarkMode() {
 }
 
 
+
 // Check local storage for dark mode preference
 const storedDarkMode = localStorage.getItem('darkMode');
 if (storedDarkMode === 'true') {
@@ -65,7 +68,7 @@ if (storedDarkMode === 'true') {
 }
 
 document.addEventListener("DOMContentLoaded", function() {
-    const collapsibleBtn = document.querySelector(".collapsible");
+    const collapsibleBtn = document.querySelector(".menu-icon");
     const content = document.querySelector(".content");
 
     collapsibleBtn.addEventListener("click", function() {
