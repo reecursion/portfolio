@@ -122,3 +122,12 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 768px) {
+    * {
+        font-size: small;
+    }
+    .home-content {
+        padding-left: 5%;
+    }
+}
