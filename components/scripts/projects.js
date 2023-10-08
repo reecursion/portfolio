@@ -1,4 +1,23 @@
 const projects = [{
+        title: "Corporate Manual based Q&A Chatbot",
+        description: "With Caterpillar Inc.",
+        tags: ["Python", "Streamlit", "FAISS", "HuggingFace"],
+        picture: "chatbot.jpeg",
+    },
+    {
+        title: "HR Performance Review Generator",
+        description: "With Virtusa",
+        tags: ["HuggingFace", "Python"],
+        picture: "profile_pic2.jpeg",
+    },
+    {
+        title: "Portfolio Website",
+        description: "This website showcases my journey as an CSE undergraduate student with information about me, the papers I've published, the projects I've worked on, and how to get in touch with me.",
+        tags: ["HTML", "CSS", "Javascript", "Bootstrap"],
+        picture: "portfolioweb.jpeg",
+        link: "hhttps://github.com/reecursion/reecursion.github.io"
+    },
+    {
         title: "paintApp",
         description: "A Simple Java Paint Application coded on NetBeans IDE, making use of Scene Builder to create the GUI.",
         tags: ["Java", "NetBeans"],
