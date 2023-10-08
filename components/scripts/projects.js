@@ -22,7 +22,7 @@ const projects = [{
         title: "Hospital Database Management",
         description: "A Hospital database to store and manipulate patient's records and their blood test details.",
         tags: ["C++"],
-        picture: "profile_pic.jpeg",
+        picture: "profile_pic2.jpeg",
         link: "https://github.com/reecursion/Hospital-Database-Management"
     }
 ];

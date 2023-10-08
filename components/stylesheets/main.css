@@ -113,6 +113,29 @@ body {
     overflow: hidden;
 }
 
+.imgcontainer {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 110px;
+    top: 120px;
+}
+
+.imgwrapper {
+    position: relative;
+    margin-left: -20%;
+    margin-top: -50%;
+    padding-top: 50%;
+}
+
+.imgProfile {
+    display: block;
+    width: 135px;
+    height: 140px;
+}
+
 .details {
     color: #3f3f3f;
     font-size: 14px;
@@ -390,5 +413,29 @@ a {
     .home-content {
         padding: 8%;
         font-size: medium;
+    }
+    .imgcontainer {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+    }
+    .imgwrapper {
+        position: relative;
+        margin-left: -20%;
+        margin-top: -50%;
+        padding-top: 50%;
+    }
+    .imgProfile {
+        display: block;
+        width: 105px;
+        height: 110px;
+    }
+    .picture {
+        width: 100px;
+        height: 130px;
+        border-radius: 50%;
+        overflow: hidden;
     }
 }
